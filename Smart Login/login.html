@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Omar Abdel Khalek" />
+    <meta name="keywords" content="Login" />
+    <meta name="description" content="login" />
+
+    <!-- Page Icon-->
+    <link rel="icon" href="images/login.png" />
+
+    <!-- Font Awesom File -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Bootstrap4 File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Page Style File -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Page Responsive Style File -->
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body id="logInBody">
+    <div class="container logInPage">
+        <div class="form-container">
+            <div id="login-form">
+                <div id="logInModal" class="shadow modalBox">
+                    <div id="modalForm">
+                        <h1 class="text-center mb-5">Login</h1>
+
+                        <div class="form-group">
+                            <div class="form-group-input">
+                                <span style="font-family:Arial, FontAwesome">&#xf0e0;</span>
+                                <input id="emailLogInInput" type="email" class="form-control" placeholder="Your Email" autocomplete="off" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-group-input">
+                                <span style="font-family: Arial, FontAwesome">&#xf023;</span>
+                                <input id="passwordLogInInput" type="password" class="form-control" placeholder="Password" required />
+                            </div>
+                        </div>
+
+                        <div id="msgAlert" class="text-center d-none">
+
+                        </div>
+
+                        <div>
+                            <a id="logInBtn" class="btn">Log In</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="signup-box">
+                    <p>
+                        Don't Have Account?
+                        <a id="sigUpBtn" href="signup.html">Sign Up Now!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pooper File -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- JQuery File -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- Bootstrap4 File-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Page JS File -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

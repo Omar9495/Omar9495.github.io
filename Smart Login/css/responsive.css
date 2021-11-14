@@ -1,0 +1,23 @@
+@media (max-width: 500px) {
+
+    .modalBox {
+      padding: 25px 15px;
+    }
+
+    .form-group-input,
+    .modalBox .btn,
+    #emailInputAlert,
+    #usernameInputAlert,
+    #passwordInputAlert {
+      width: 260px !important;
+    }
+
+    #welcome-box h1 {
+        font-size: 28px;
+      }
+
+    .signup-box,
+    .login-box {
+        font-size: 15px;
+      }
+}

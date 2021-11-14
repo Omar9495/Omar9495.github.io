@@ -1,0 +1,215 @@
+body {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control:focus,
+.form-control.is-valid,
+.form-control.is-invalid:focus {
+    box-shadow: none !important;
+}
+
+.form-control.is-valid {
+    border-color: #f24f2b !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%231e7f92' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+}
+
+.form-control:focus {
+    border-color: #f24f2b;
+    box-shadow: none;
+}
+
+#msgAlert {
+    color: red;
+    font-size: 18px;
+    margin: 1rem 0;
+}
+
+
+/************** START  LOG  IN  PAGE **************/
+
+#login-form,
+#signUp-form,
+.welcome-main,
+#welcome-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalBox {
+    width: max-content;
+    height: max-content;
+    padding: 25px 25px 35px;
+    background-color: #a6a6a736;
+    border-radius: 5px;
+    position: relative;
+}
+
+.modalBox h1 {
+    color: #fff;
+    padding: 10px;
+    margin: auto;
+}
+
+.modalBox .form-group-input {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.modalBox .form-group span {
+    width: 10%;
+    color: #fff;
+    background-color: #f24f2b;
+    border: 1px solid #f24f2b;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalBox .form-group input {
+    width: 90%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.modalBox .form-group {
+    margin-bottom: 2rem !important;
+}
+
+.modalBox .btn {
+    background-color: #f24f2b;
+    display: block;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding: 10px 0;
+    width: 300px;
+    opacity: 0.9;
+}
+
+.modalBox .btn:hover {
+    opacity: 1;
+}
+
+.signup-box,
+.login-box {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.signup-box a,
+.login-box a {
+    color: #f24f2b !important;
+    font-weight: 600;
+}
+
+.signup-box a:hover,
+.login-box a:hover {
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
+
+/************** END  LOG  IN  PAGE **************/
+
+
+/************** START  SIGN  UP  PAGE **************/
+
+#signUp-form #modalForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#emailInputAlert,
+#usernameInputAlert,
+#passwordInputAlert {
+    padding: 6px;
+    width: 300px;
+}
+
+.badge {
+    background-color: #f24f2b !important;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: 18px;
+    font-weight: normal;
+    width: 50%;
+}
+
+#signUp-form .done-msg {
+    color: #fff;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+
+/************** END  SIGN  UP  PAGE **************/
+
+
+/************** START  WELCOME  PAGE **************/
+
+.welcome-main,
+#login-form,
+#signUp-form {
+    flex-direction: column;
+}
+
+#welcome-box {
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    margin-top: 250px;
+    background-color: #c0c2c336;
+    border-radius: 5px;
+}
+
+#welcome-box h1 {
+    color: #fff;
+}
+
+.welcome-main a {
+    color: #fff !important;
+    background-color: #f24f2b !important;
+    margin-top: 25px;
+    opacity: 0.9;
+}
+
+.welcome-main button:hover {
+    opacity: 1;
+}
+
+#deleteAcc {
+    background-color: red !important;
+    position: fixed;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+
+/************** END  WELCOME  PAGE **************/
