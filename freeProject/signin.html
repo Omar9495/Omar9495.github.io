@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign In</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Omar Abdel Khalek" />
+    <meta name="keywords" content="Sign In" />
+    <meta name="description" content="sign in" />
+
+    <!-- Page Icon-->
+    <link rel="icon" href="image/user-3297.png" />
+
+    <!-- Font Awesome File -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Page Style File -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body id="signinBody">
+
+    <div class="logo-welcome">
+        <img src="image/logo-welcome.png" alt="">
+    </div>
+
+    <div class="container signinPage">
+        <div class="form-container">
+            <div id="signin-form">
+                <div id="signinModal">
+                    <div id="modalForm">
+                        <h1 class="text-center mb-5">Sign In</h1>
+
+                        <div class="form-group">
+                            <div class="form-group-input">
+                                <span style="font-family:Arial, FontAwesome">&#xf0e0;</span>
+                                <input id="usernamesigninInput" type="username" class="form-control" placeholder="Email" autocomplete="off" required />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-group-input">
+                                <span style="font-family: Arial, FontAwesome">&#xf023;</span>
+                                <input id="passwordsigninInput" type="password" class="form-control" placeholder="Password" required />
+                            </div>
+                        </div>
+
+                        <div id="msgAlert" class="text-center d-none">
+
+                        </div>
+
+                        <div>
+                            <a id="signinBtn" class="btn">Sign In</a>
+                        </div>
+                    </div>
+                    <div class="signup-box">
+                        <p>
+                            Don't Have Account?
+                            <a id="sigUpBtn" href="signup.html">Sign Up Now!</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap File-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Page JS File -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

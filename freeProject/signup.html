@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Omar Abdel Khalek" />
+    <meta name="keywords" content="Sign Up">
+    <meta name="description" content="signup">
+
+    <!-- Page Icon-->
+    <link rel="icon" href="image/user-3297.png">
+
+    <!-- Font Awesome File -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Page Style File -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="signUpBody">
+
+
+    <div class="logo-welcome">
+        <img src="image/logo-welcome.png" alt="">
+    </div>
+
+    <div class="container signUpPage">
+        <div class="form-container">
+            <div id="signUp-form">
+
+                <!-- Form Body -->
+                <div id="signUpModal">
+
+                    <div id="modalForm">
+
+                        <h1 class="text-center mb-5">Sign Up</h1>
+
+                        <div class="form-group">
+                            <div class="form-group-input">
+                                <span style="font-family:Arial, FontAwesome">&#xf0e0;</span>
+                                <input id="emailInput" type="email" class="form-control" placeholder="Email Address" autocomplete="off">
+                            </div>
+                            <div id="emailInputAlert" class="alert alert-danger d-none">
+                                Invalid Email Address!
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-group-input">
+                                <span style="font-family:Arial, FontAwesome">&#xF007;</span>
+                                <input id="usernameInput" type="text" class="form-control d-block" placeholder="Username" autocomplete="off">
+                            </div>
+                            <div id="usernameInputAlert" class="alert alert-danger d-none">
+                                Username must start with capital letter and contains at least 3 letters (XXX85)
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="form-group-input">
+                                <span style="font-family:Arial, FontAwesome">&#xf023;</span>
+                                <input id="passwordInput" type="password" class="form-control" placeholder="Password">
+                            </div>
+                            <div id="passwordInputAlert" class="alert alert-danger d-none ">
+                                Password must be 5 characters at least Cannot contain special characters
+                            </div>
+                        </div>
+
+                        <div id="msgAlert" class="text-center d-none mb-2">
+
+                        </div>
+
+                        <div>
+                            <a id="signupBtn" class="btn">SignUp</a>
+                        </div>
+                    </div>
+
+                    <div class="signin-box">
+                        <p>
+                            Already Have Account?
+                            <a id="goTosigninBtn" href="signin.html">Sign In Now!</a>
+                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap File-->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Page JS File -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
